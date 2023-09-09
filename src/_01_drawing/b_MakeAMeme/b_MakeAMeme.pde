@@ -29,11 +29,12 @@ void draw() {
 
   // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme
 fill(0,250,0);
+if(mousePressed) {
 text("IT WORKED FIRST TIME", 105,450);
-  
+}
   // 8. Change the color of the text. Use the fill() command for this
   //    Put it BEFORE you write the text!
-  
+ 
   
   // 9. Change the program so it only shows the punchline when the mouse is pressed
   //    Put this code       if(mousePressed)     before you write the punchline
